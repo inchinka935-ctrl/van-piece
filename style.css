@@ -1,1 +1,90 @@
+body{
+  font-family: sans-serif;
+  margin:  0px;
+}
+
+header{
+    text-align: center;
+    background-color: #cccaba;
+}
+
+h1{
+    color: #002fff;
+}
+
+.menu{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.nav-button{
+    text-decoration: none;
+    color: #e81313;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #e8a813;
+}
+
+.about{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+min-height: 90vh;
+background-image: linear-gradient(
+rgba(0,0,0,0.6),
+rgba(0,0,0,0.6)),
+url('https://i.postimg.cc/NfVjBGq9/276021173-310-430.jpg');
+color: white;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.forest{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    background-image:  linear-gradient(
+rgba(0,0,0,0.6),
+rgba(0,0,0,0.6)),
+url('https://i.postimg.cc/kGF21khd/luffy-gear-5-one-piece-v0-zjathgn8ix1c1.webp');
+   color: white;  
+background-position: center;
+background-size: cover;
+background-repeat:no-repeat;
+}
+
+img{
+    width: 300px;
+}
+
+.enemis{
+    display: flex;
+    background-color: #f06705;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    color: green;
+}
+
+.team{
+    display: flex;
+    background-color:#f04382 ;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: yellow;
+}
+
+footer{
+    background-color: #1db3b3;
+    padding: 15px;
+    margin:10px;
+}
+
 
